@@ -36,18 +36,11 @@
         align-self: center;
     }
     
-    ul {
-        float: left;
-    }
-    
-    li {
-        display: flex;
-    }
-    
     .flex-container {
         display: flex;
         flex-wrap: nowrap;
         background-color: silver;
+        color: black;
     }
     
     .flex-container>div {
@@ -67,14 +60,21 @@
         height: 5vh;
     }
     
+    .sh-card>div {
+        display: inline-block;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    
     .quant {}
     
     #price {
-        max-width: 95%;
-        margin-top: 7.5vh;
-        margin-left: .5vw;
+        max-width: 96%;
+        margin-top: 1.5vh;
+        margin-left: 0vw;
         height: 35px;
         border-radius: 12px;
+        color: black;
         border: 1px solid black;
     }
     
@@ -85,36 +85,46 @@
         justify-content: center;
         width: 90%;
         height: auto;
-        padding: .5em;
+        padding-bottom: 2.5vh;
         margin-left: 150px;
-        line-height: 3.5vh;
-        font-size: 1.5vh;
+        font-weight: 800;
     }
     
-    label {
+    .size {
+        width: 100px;
         display: flex;
-        position: absolute;
-        font-size: 20px;
-        width: 2vw;
-        height: 2vh;
-        float: inline-start;
-        border: 2px solid orangered;
+        flex-direction: row;
+        float: left;
+        margin-left: .5vw;
     }
     
     #size-pd {
+        width: 100%;
+        height: 40px;
+        -moz-padding-start: calc(10px - 3px);
+        padding-left: 10px;
+        background-color: blue;
+        color: rgb(255, 255, 255);
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        border-radius: 6px;
+    }
+    
+    .quant {
+        width: 100px;
         display: flex;
-        width: 4vw;
-        margin-left: auto;
-        order: 2;
-        margin-top: .5vh;
-        border: 2px solid green;
+        flex-direction: row;
+        justify-content: space-evenly;
     }
     
     #quant-pd {
-        display: flex;
-        width: 4vw;
-        margin-left: auto;
-        order: 2;
-        margin-top: .5vh;
-        border: 2px solid green;
+        width: 100%;
+        height: 40px;
+        -moz-padding-start: calc(10px - 3px);
+        padding-left: 10px;
+        background-color: blue;
+        color: rgb(255, 255, 255);
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        border-radius: 6px;
     }
