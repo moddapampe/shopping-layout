@@ -4,12 +4,19 @@
     }
     
     html {
-        max-width: 400px;
-        width: 400px;
+        max-width: 600px;
     }
     
     body {
+        width: 400px;
+        height: 600px;
         font-family: 'Quicksand', sans-serif;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    main {
+        background-color: antiquewhite;
+        border-radius: 12px;
     }
     
     img {
@@ -23,17 +30,129 @@
     }
     
     h1 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         line-height: 2px;
         height: auto;
         width: 380px;
-        margin-left: .5rem;
+        margin-left: 1rem;
     }
     
     p {
         font-size: .8rem;
         width: auto;
-        padding: .5rem;
-        margin-left: 0px;
+        height: 1rem;
+        padding-left: .5rem;
+        margin-left: 0.5rem;
+        margin-bottom: 40px;
         text-align: left;
+    }
+    
+    br {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    
+    .header {
+        display: block;
+        border-radius: 12px;
+    }
+    
+    .pricelabel {
+        display: block;
+        padding-top: 2.5vh;
+        border: 2px solid antiquewhite;
+        background-color: white;
+        border-radius: 8px;
+        margin-left: .5rem;
+        margin-top: -0.5rem;
+        margin-bottom: 0.5rem;
+        text-align: center;
+        align-items: center;
+        font-size: 1.2rem;
+        font-weight: 800;
+        width: 95%;
+        height: 3vh;
+        padding: 15px 0;
+    }
+    
+    .pulldown {
+        display: inline-flex;
+        justify-content: space;
+        margin-bottom: -6rem;
+        width: 100%;
+    }
+    
+    .sizes {
+        display: inline-flex;
+        width: 40%;
+        height: 2.5vh;
+        padding-left: 2rem;
+        margin-top: 1vh;
+    }
+    
+    #size {
+        margin-left: 1rem;
+        width: 10vw;
+    }
+    
+    .quantities {
+        display: inline-flex;
+        width: 40%;
+        height: 2.5vh;
+        margin-left: 3rem;
+        margin-top: 1vh;
+        padding-right: 2rem;
+    }
+    
+    #quantity {
+        margin-left: .5rem;
+        width: 10vw;
+    }
+    
+    .colorpicker {
+        position: relative;
+        display: inline-flex;
+        justify-content: flex-start;
+        width: 40%;
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+    
+    .colors {
+        display: inline-block;
+        justify-content: center;
+        height: 25px;
+        width: 25px;
+        margin-left: .5rem;
+        margin-top: -1.0vh;
+        margin-bottom: 0.5rem;
+        border-radius: 50%;
+    }
+    
+    #color1 {
+        background: linear-gradient(90deg, pink 50%, cyan 50%);
+    }
+    
+    #color2 {
+        background: linear-gradient(90deg, green 50%, red 50%);
+    }
+    
+    #color3 {
+        background: linear-gradient(90deg, blue 50%, yellow 50%);
+    }
+    
+    .checkout {
+        display: block;
+        position: relative;
+        background-color: #485FB9;
+        color: white;
+        border-radius: 12px;
+        margin-top: .2rem;
+        margin-left: .2rem;
+        text-align: center;
+        padding-top: 15px;
+        font-weight: 800;
+        width: 96%;
+        height: 40px;
+        border: 5px solid antiquewhite;
     }
