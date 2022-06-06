@@ -12,6 +12,7 @@
         height: 600px;
         font-family: 'Quicksand', sans-serif;
         background-color: rgb(255, 255, 255);
+        border: 2px solid green;
     }
     
     main {
@@ -73,12 +74,14 @@
         width: 95%;
         height: 3vh;
         padding: 15px 0;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
     
     .pulldown {
         display: inline-flex;
         justify-content: space;
         margin-bottom: -6rem;
+        margin-left: -1rem;
         width: 100%;
     }
     
@@ -127,6 +130,7 @@
         margin-top: -1.0vh;
         margin-bottom: 0.5rem;
         border-radius: 50%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
     
     #color1 {
@@ -154,5 +158,5 @@
         font-weight: 800;
         width: 96%;
         height: 40px;
-        border: 5px solid antiquewhite;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
