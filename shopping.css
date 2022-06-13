@@ -158,7 +158,6 @@
         font-weight: 800;
         width: 96%;
         height: 40px;
-<<<<<<< HEAD
         -moz-padding-start: calc(10px - 3px);
         padding-left: 10px;
         background-color: blue;
@@ -171,7 +170,4 @@
         height: 20px;
         width: 10%;
         background-color: linear gradient;
-=======
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
->>>>>>> 45ee00074cd6dc8e8fa6d6cab3fa539da5580933
     }
